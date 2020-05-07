@@ -345,14 +345,50 @@ body {
     width: 38%;
 }
 
-@media (max-width: 56.25em) {
+@media (min-width: 500px) {
     .photo-layout-p2 {
         top: -75px;
-        left: 260px;
+        left: 267px;
         width: 33%;
         z-index: 100;
     }
 }
+
+@media (max-width: 900px) {
+    .photo-layout-p2 {
+        top: -75px;
+        left: 267px;
+        width: 33%;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 900px) {
+    .photo-layout-p2 {
+        top: 41px;
+        left: 249px;
+        width: 33%;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 1200px) {
+    .photo-layout-p2 {
+        top: 41px;
+        left: 275px;
+        width: 33%;
+        z-index: 100;
+    }
+}
+
+/*@media (max-width: 56.25em) {*/
+/*    .photo-layout-p2 {*/
+/*        top: -75px;*/
+/*        left: 260px;*/
+/*        width: 33%;*/
+/*        z-index: 100;*/
+/*    }*/
+/*}*/
 
 .photo-layout-p3 {
     left: 20%;
