@@ -582,6 +582,11 @@ body {
     border-bottom: 1px solid #eee;
 }
 
+.created {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
 .card-cta {
     position: absolute;
     top: 50%;
