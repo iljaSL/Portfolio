@@ -1,5 +1,5 @@
 <h2>Portfolio</h2>
-This is my static Portfolio Website. I just used HTML and CSS for this personal Project.
+This is my own static portfolio website. I built it with HTML and CSS.
 <br>
 At the same time I got a better insight of how powerful CSS is. It doesn't need more to create a stunning static Website.
 <br>
