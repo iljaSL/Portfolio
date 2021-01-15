@@ -345,7 +345,7 @@ body {
 .photo-layout-p1 {
   left: 55px;
   top: 37px;
-  width: 33%;
+  width: 26%;
 }
 
 @media (max-width: 56.25em) {
@@ -357,14 +357,28 @@ body {
 }
 
 .photo-layout-p3 {
-  left: 42%;
+  left: 37%;
   top: 35%;
-  width: 70%;
+  width: 55%;
   margin-top: 35px;
 }
 
 @media (max-width: 56.25em) {
   .photo-layout-p3 {
+    top: -16px;
+    left: 27px;
+    width: 66%;
+  }
+}
+
+.photo-layout-p2 {
+  left: 87%;
+  width: 50%;
+  margin-top: 65px;
+}
+
+@media (max-width: 56.25em) {
+  .photo-layout-p2 {
     top: -16px;
     left: 27px;
     width: 66%;
@@ -952,7 +966,8 @@ body {
       to right bottom,
       rgba(5, 56, 107, 0.9),
       rgba(92, 219, 149, 0.8)
-    );
+    ),
+    url(../img//source.gif);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
