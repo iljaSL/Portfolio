@@ -4,4 +4,4 @@
 I got a better insight of how powerful CSS is, by not using any CSS libraries. It does not need more to create a cool static Website.
 <br></strong>
 <p></p>
-<strong>Here is the Link to the Website -> https://ismelich.tech</strong>
+<strong>Here is the Link to the Website -> https://ismelich.com</strong>
