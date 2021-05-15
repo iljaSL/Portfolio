@@ -227,7 +227,7 @@ body {
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 1.0rem 2.5rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
@@ -508,6 +508,18 @@ body {
   background-image: linear-gradient(to right bottom, #f6d365, #f6d365);
 }
 
+.card-side-back-10 {
+  background-image: linear-gradient(to right bottom, #44A08D, #093637);
+}
+
+.card-side-back-11 {
+  background-image: linear-gradient(to right bottom, #f85032, #e73827);
+}
+
+.card-side-back-12 {
+  background-image: linear-gradient(to right bottom,#42275a, #734b6d);
+}
+
 .card:hover .card-side-front {
   transform: rotateY(-180deg);
 }
@@ -602,6 +614,21 @@ body {
     url(../img/camping.webp);
 }
 
+.card-picture-10 {
+  background-image: linear-gradient(to right bottom, #44A08D, #093637),
+    url(../img/hypertube.gif);
+}
+
+.card-picture-11 {
+  background-image: linear-gradient(to right bottom, #f85032, #e73827),
+    url(../img/matcha.gif);
+}
+
+.card-picture-12 {
+  background-image: linear-gradient(to right bottom, #42275a, #734b6d),
+    url(../img/tryhackme.gif);
+}
+
 .card-heading {
   font-size: 2.8rem;
   font-weight: 400;
@@ -681,6 +708,18 @@ body {
 
 .card-heading-span-9 {
   background-image: linear-gradient(to right bottom, #f6d365, #fda085);
+}
+
+.card-heading-span-10 {
+  background-image: linear-gradient(to right bottom,  #44A08D, #093637);
+}
+
+.card-heading-span-11 {
+  background-image: linear-gradient(to right bottom,   #f85032, #e73827);
+}
+
+.card-heading-span-12 {
+  background-image: linear-gradient(to right bottom,   #42275a, #734b6d);
 }
 
 .card-details {
